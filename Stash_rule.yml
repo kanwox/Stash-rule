@@ -1,4 +1,4 @@
-name: "Clash Rule - Stash"
+name: "Stash_rule"
 desc: "纯覆写版。保留机场节点，重建策略组与规则。"
 icon: "https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png"
 
@@ -190,78 +190,56 @@ proxy-groups: #!replace
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/openai.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "Apple"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/apple.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "GitHub"
     type: select
     icon: "https://i.postimg.cc/vTSTYrLQ/github.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "Google"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/google.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "Microsoft"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/microsoft.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "Telegram"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/telegram.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "TikTok"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/tiktok.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "TV"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/netflix.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "Twitch"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/twitch.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "X"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/x.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "YouTube"
     type: select
     icon: "https://testingcf.jsdelivr.net/gh/shindgew/WHATSINStash@main/icon/youtube.png"
     proxies: ["主代理", "直连", "HK", "JP", "TW", "SG", "US"]
-    include-all: true
-    exclude-filter: *exclude
 
   - name: "HK"
     type: url-test
